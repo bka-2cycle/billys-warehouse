@@ -1,0 +1,111 @@
+/* Universal Selectors */
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+position: relative;
+background-color: darkgrey;
+}
+
+header,
+footer {
+height: 60px;
+width: 100%;
+line-height: 60px;
+background-color: darkolivegreen;
+}
+
+header {
+position: fixed;
+border-bottom: 8px solid darkgreen;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 8px solid darkgreen;
+    color: beige;
+    }
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+figcaption {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+}
+
+/* Contact Form */
+form {
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px;
+    border: 4px solid darkolivegreen;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 200px;
+    border: 1px solid darkgray;
+    margin-bottom: 10px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    width: 80px;
+    border-radius: 15px;
+}
+
+
+/* Class Selectors */
+.flush-right {
+text-align: right;
+}
+
+.justify {
+text-align: center;
+}
+
